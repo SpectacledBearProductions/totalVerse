@@ -1,0 +1,91 @@
+ main {
+      background-color: rgba(98, 120, 248, 0.89);
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+
+    }
+
+    .newer {
+      background-color: rgba(98, 120, 248, 0.89);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .game {
+      display: flex;
+      gap: 20px;
+
+    }
+
+    .game2 {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      border: 2px solid rgb(167, 167, 167);
+      border-radius: 10px;
+      background-color: rgb(16, 90, 248);
+      cursor: pointer;
+      transition: all 0.3s ease;
+      border: 2px solid rgb(136, 136, 136);
+      border-radius: 10px;
+    }
+
+    .card:hover {
+      transform: scale(1.08);
+    }
+
+    .card img {
+      border: 2px solid rgb(100, 100, 100);
+      border-radius: 10px;
+      background-color: rgb(16, 90, 248);
+      display: block;
+      margin: 0 auto;
+
+    }
+
+    .button {
+      padding: 20px 40px;
+      font-size: 100px;
+    }
+ .centertitle {
+      position: absolute;
+      top: 8px;
+    }
+
+    h1 {
+      font-size: 50px;
+      background-color: blue;
+      color: azure;
+      font-family: Georgia;
+    }
+
+    .discription {
+      font-size: 18%;
+    }
+
+    .big-text {
+      font-size: 300%;
+      padding: 5%;
+      background-color: rgb(16, 90, 248);
+    }
+
+    body {
+      background-color: rgb(114, 114, 114);
+    }
+
+    footer {
+      background-color: blue;
+      display: flex;
+      text-align: center;
+    }
+
+                         
