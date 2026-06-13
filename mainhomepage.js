@@ -14,13 +14,19 @@ alert("Login successful");
 loadMainPage();
 
 
-let money = 9;
-function updateMoney() {
-  document.getElementById("money").textContent = money; 
+
+const button = document.getElementById('clickBtn');
+
+if (button) {
+  button.addEventListener('click', function () {
+    let money = parseInt(localStorage.getItem('money')) || 0;
+
+    money += 10;
+    localStorage.setItem('money', money);
+
+    window.location.href = "Clicker.html";
+  });
 }
-function earnMoney() {
-  money += 10; 
-  updateMoney(); 
-}
+
 
   

@@ -1,12 +1,12 @@
-'use strict'
-let money = 9;
+'use strict';
 
-function updateDisplay() {
-  document.getElementById("money").textContent = money;
-}
-function earnMoney() {
-  money += 10; 
-  updateMoney(); 
-}
+const button = document.getElementById('clickBtn');
 
-  
+button.addEventListener('click', function () {
+  let money = parseInt(localStorage.getItem('money')) || 0;
+
+  money += 10;
+  localStorage.setItem('money', money);
+
+  window.location.href = "Clicker.html";
+});
