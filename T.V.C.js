@@ -1,12 +1,17 @@
 'use strict';
 
-const button = document.getElementById('clickBtn');
+// Get saved money, or use 0 if nothing is saved
+let MoneyDisplay = Number(localStorage.getItem('MoneyDisplay')) || 0;
 
-button.addEventListener('click', function () {
-  let money = parseInt(localStorage.getItem('money')) || 0;
+// Show it on the page
+document.getElementById('MoneyDisplay').textContent = MoneyDisplay;
 
-  money += 10;
-  localStorage.setItem('money', money);
+function getmoney() {
+    MoneyDisplay++;
 
-  window.location.href = "Clicker.html";
-});
+    // Save the new value
+    localStorage.setItem('MoneyDisplay', MoneyDisplay);
+
+    // Update the display
+    document.getElementById('MoneyDisplay').textContent = MoneyDisplay;
+}
