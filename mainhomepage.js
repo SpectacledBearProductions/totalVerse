@@ -13,7 +13,6 @@ function loadMainPage() {
 alert("Login successful");
 loadMainPage();
 
-
 const button = document.getElementById('clickBtn');
 
 if (button) {

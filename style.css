@@ -56,9 +56,16 @@ body {
   font-size: 150%;
   color: #333;
 }
-img {
-  border-radius: 50%;
-}
+
 .number-size {
   font-size: 100%;
+}
+
+.displayimage {
+  border-radius: 50%;
+  width:"100px";
+  height:"100px";
+  border: 1px solid black;
+  background-position: center;
+  background-size: cover;
 }
