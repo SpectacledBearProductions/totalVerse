@@ -10,8 +10,10 @@ function loadMainPage() {
     window.location.href = "Login.html";
   }
 }
-alert("Login successful");
 loadMainPage();
+alert("Login successful");
+break
+
 
 
 
