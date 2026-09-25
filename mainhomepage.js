@@ -10,8 +10,7 @@ function loadMainPage() {
     window.location.href = "Login.html";
   }
 }
-alert("Login successful");
-loadMainPage();
+
 
 const button = document.getElementById('clickBtn');
 
@@ -25,4 +24,3 @@ if (button) {
     window.location.href = "Clicker.html";
   });
 }
-
