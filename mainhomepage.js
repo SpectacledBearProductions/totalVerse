@@ -7,7 +7,7 @@ function loadMainPage() {
   if (user && password) {
     document.getElementById("outputuser").innerHTML = "Welcome, " + user;
   } else {
-    window.location.href = "Login.html";
+    window.location.href = "index.html";
   }
 }
 

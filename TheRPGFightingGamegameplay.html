@@ -1,39 +1,56 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="rpg.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <style>
-      .start {
+      .head {
+        background-color: grey;
+        padding: 25px;
+        display: Flex;
+        gap: 50px;
       }
     </style>
-    <title>The RPG Fighting Game</title>
   </head>
   <body>
-   <h1>Welcome to The RPG Fighting Game</h1>
-    <p>code=first working Game</p>
-     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <p class="p">Work in progress</p>
-    <a href="TheRPGFightingGamegameplay.html"><button class="stylebutton" >Play</button></a>
-     <button class="stylebutton" disabled>controls</button>
-     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-   <br>
-   <br>
-   <footer><p>copyright; 2026 The RPG Fighting Game. All rights reserved.</p>
-    </footer>
+    <div>
+
+      <a href="mainhomepage.html"><button>leave game</button></a>
+
+    </div>
+<header class="head" id="low">
+  <h1>$ <span id="counter">0</span> <span id="subtract"></span></h1>
+  <button id="play" onclick="disapper()">Play</button>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h1 onclick="opponethealth()"> 0</h1>
+</header>
+
+
+      <div>
+        <button onclick="decrease()">buy Health potion</button>
+        
+          <button onclick="decreaseforstrengh()">buy sword</button>
+        
+  <button onclick="decreaseHeath()">test</button>
+
+      </div >    
+      <h1 >Health <span id="health">0</span></h1>
+      <p id="Health"></p>
+
+      <h1 >Strengh <span id="strengh">0</span></h1>
+      <p id="strengh"></p>
+
+    </header>
+    <main>
+      
+      <img src="" alt="">
+      
+    </main>
+<footer class="head">Copyrighted by SpeakledBearproductions 2026</footer>
+    <script src="TheRPGFightingGamegameplay.js"></script>
   </body>
 </html>

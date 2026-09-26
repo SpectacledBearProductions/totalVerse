@@ -8,10 +8,23 @@ document.getElementById('MoneyDisplay').textContent = MoneyDisplay;
 
 function getmoney() {
     MoneyDisplay++;
-
-    // Save the new value
+     // Save the new value
     localStorage.setItem('MoneyDisplay', MoneyDisplay);
 
     // Update the display
     document.getElementById('MoneyDisplay').textContent = MoneyDisplay;
-}
+} 
+
+  function submoney() {
+    MoneyDisplay--;
+  // Save the new value
+    localStorage.setItem('MoneyDisplay', MoneyDisplay);
+
+    // Update the display
+    document.getElementById('MoneyDisplay').textContent = MoneyDisplay;
+  
+  }
+
+
+
+
